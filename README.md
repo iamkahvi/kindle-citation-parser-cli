@@ -1,10 +1,12 @@
 ## citation-parser
 
-[Amazon Kindle](https://www.wikiwand.com/en/Amazon_Kindle)s give you a `My Clippings.txt` file that contains all your highlights.
+[Amazon Kindles](https://www.wikiwand.com/en/Amazon_Kindle) give you a `My Clippings.txt` file that contains all your highlights.
 
 This CLI converts the text into JSON using [kindle-citation-extractor](https://github.com/mxro/kindle-citation-extractor).
 
 ### Usage
+
+Requires Node v16.16.0 or higher.
 
 ```bash
 ./bin/dev parse My\ Clippings.txt out.json
